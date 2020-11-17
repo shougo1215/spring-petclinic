@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <title> Web開発の練習１</title>
   <link rel="stylesheet" href="mystyle.css"> <!-- この行を追加 -->
-  <script src=“myjs.js"></script> <!-- この行を追加
+  <script src="myjs.js"></script> <!-- この行を追加
 -->
   <script src="ex6-1.js"></script>
   <script src="ex6-5.js"></script>
   <script src="ex06-7.js"></script>
   <script src="ex06-8.js"></script>
+  <script src="ex07-1.js"></script>
+  <script src="ex07-3.js"></script>
+  <script src="ex07-5.js"></script>
+  <script src="ex07-8.js"></script>
 
 </head>
 <body>
-  <!--文字の大きさの練習-->
+  <!--文字の大きさの練習
 <h1>Hello World</h1>
   <h2>Hello World</h2>
   <h3>Hello World</h3>
   <ol>
       <li>ほげほげ</li>
       <li>ほにゃらら</li>
-  </ol>
+  </ol>-->
   <script src="myjs.js"></script>
 <input type="button" value="ここをクリック" onclick="sayhello();">
 <!--<h1>イベントハンドラの練習</h1><input type="button" value="ここをクリック" onclick="alert('Hello, Osamu!');">-->
-<h1>変数の練習</h1><input type="button" value="あいさつ" onclick="sayhello65();"><input type="button" value="太郎" onclick="taro()65;"><input type="button" value="花子" onclick="hanako65();">  
-<h1>引数の練習</h1><input type="button" value="あいさつ" onclick="sayhello67();"><input type="button" value="太郎" onclick="someone('太郎');"><input type="button" value="花子" onclick="someone('花子');">
-<h1>JavaScriptによる変更の練習</h1><input type="button" value="あいさつ" onclick="sayhello();"><input type="button" value="太郎" onclick="taro();"><input type="button" value="花子" onclick="hanako();"><p id="who">world</p>
+<h1>変数の練習</h1>
+   <input type="button" value="あいさつ" onclick="sayhello65();">
+   <input type="button" value="太郎" onclick="taro()65;">
+   <input type="button" value="花子" onclick="hanako65();">
+<h1>引数の練習</h1>
+   <input type="button" value="あいさつ" onclick="sayhello67();">
+   <input type="button" value="太郎" onclick="someone('太郎');">
+   <input type="button" value="花子" onclick="someone('花子');">
+<h1>JavaScriptによる変更の練習</h1>
+   <input type="button" value="あいさつ" onclick="sayhello68();">
+   <input type="button" value="太郎" onclick="taro68();">
+   <input type="button" value="花子" onclick="hanako68();">
+   <p id="who68">world</p>
+
+<input type="button" value="ここをクリック" onclick="sayhello61();">
+<h1>テキスト入力の練習</h1>
+   <input type="button" value="あいさつ" onclick="sayhello71();">
+   <p>誰？<input type="text" id="who71"></p>
+<h1>足し算</h1>
+<p>
+   <input type="text" id="input1">+<input type="text" id="input2">
+   <input type="button" value="計算" onclick="add();">
+</p>
+<h1>なぞなぞ</h1>
+   <p>目を閉じてないと見られないものはなーに？</p>
+   <p>
+    答（漢字１文字で）：<input type="text" id="answer">
+    <input type="button" value="解答" onclick="nazo();">
+   </p> 
+<input type="text" id="answer">
+<input type="button" value="解答" onclick="nazo();">   
 </body>  
-  <dl>
+ <!-- <dl>
 <dt>作者</dt>
 <dd>ジョン</dd>
 <dd>ポール</dd>
@@ -187,4 +219,4 @@ maxlength="4"></label></p>
 <input type="reset" value="リセット">
 </p>
 </body>
-</html>
+</html>-->
